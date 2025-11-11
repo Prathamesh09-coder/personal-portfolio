@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/linkedin profle photo.jpg" alt="Prathamesh Nawale" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Prathamesh Nawale">Prathamesh Nawale</h1>
+
+          <p class="title">Full Stack Web Developer(MERN Stack)</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:prathameshnawale19@gmail.com" class="contact-link">prathameshnawale19@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a class="contact-link">+91 8010396257</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2006-10-01">01 October, 2006</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Viman Nagar, Pune, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/prathamesh-nawale/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Prathamesh09-coder" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/prathamesh_nawale19/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+                        Innovative and detail-oriented Computer Science Engineer with expertise in Full Stack Web Development
+            (MERN Stack), Blockchain, Web3, and Artificial Intelligence & Machine Learning. Skilled in designing scalable
+            systems, developing decentralized applications, and integrating intelligent automation into modern web solutions.
+            Passionate about leveraging emerging technologies to build impactful, future-ready digital platforms that drive
+            efficiency and innovation.
+          </p>
+
+          <p>
+            I’m an emerging technologist who loves turning data into intelligence — blending AI, Cloud, and Analytics to design smart innovations that matter.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+  <h3 class="h3 service-title">What I'm Doing</h3>
+
+  <ul class="service-list">
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-dev.jpg" alt="Full Stack Development icon" width="40">
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Full Stack Web Development</h4>
+        <p class="service-item-text">
+          Building dynamic and scalable web applications using the MERN stack with a focus on performance, clean code, and user experience.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/bt-image.jpg" alt="Blockchain icon" width="40">
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Blockchain & Web3 Solutions</h4>
+        <p class="service-item-text">
+          Developing decentralized applications (DApps), smart contracts, and blockchain integrations to enable secure and transparent digital ecosystems.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/aiml.jpg" alt="AI icon" width="40">
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Artificial Intelligence & Machine Learning</h4>
+        <p class="service-item-text">
+          Designing intelligent automation systems and predictive models that enhance user experience and drive data-driven decision-making.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/tech.jpg" alt="Innovation icon" width="40">
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Innovative Tech Solutions</h4>
+        <p class="service-item-text">
+          Leveraging emerging technologies to create impactful, future-ready digital platforms that promote efficiency, scalability, and innovation.
+        </p>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sunderbai Marathe Vidyalaya Kharadi Pune </h4>
+
+              <span>2011 — 2022</span>
+
+              <p class="timeline-text">
+                I completed my schooling in a semi-English medium, which allowed me to build a balanced command over both English and regional languages, supporting clear communication and adaptability.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">JSPM University</h4>
+
+              <span>2022 — 2025</span>
+
+              <p class="timeline-text">
+                I have completed my Diploma in Computer Engineering, where I gained valuable technical skills and improved my problem-solving abilities.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ratan Tata Maharashtra State Skill University</h4>
+
+              <span>2025 — 2028</span>
+
+              <p class="timeline-text">
+                I am currently pursuing my B.Tech in Computer Technology at Ratan Maharashtra State Skill University, where these three years will help me build a strong foundation of skills and knowledge.
+                eos.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+</div>
+
+<ol class="timeline-list">
+
+  <li class="timeline-item">
+
+    <h4 class="h4 timeline-item-title">Edunet Foundation (in collaboration with IBM SkillsBuild & AICTE)</h4>
+
+    <span>July 2025 – August 2025</span>
+
+    <p class="timeline-text">
+      I have successfully completed a 4-week internship focused on <b>Artificial Intelligence (AI)</b> and <b>Cloud Computing</b> under the <b>IBM SkillsBuild</b> program. 
+      During this internship, I worked on real-world projects involving <b>Data Analytics</b>, <b>Machine Learning</b>, and <b>Cloud-based AI applications</b>, guided by industry experts. 
+      The experience helped me strengthen my technical expertise and practical understanding of emerging technologies.
+    </p>
+
+  </li>
+
+</ol>
+
+        </section>
+
+        <section class="skill">
+
+            <h3 class="h3 skills-title">My Skills</h3>
+
+  <ul class="skills-list content-card">
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Programming Languages</h5>
+        <data value="90">90%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 90%;"></div>
+      </div>
+      <p class="timeline-text">
+        Python, Java, C++, HTML, CSS, JavaScript
+      </p>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Frameworks & Libraries</h5>
+        <data value="85">85%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 85%;"></div>
+      </div>
+      <p class="timeline-text">
+        Flask, React.js, Node.js, Express.js, Bootstrap, Tailwind CSS, YOLOv8
+      </p>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Tools & Technologies</h5>
+        <data value="80">80%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 80%;"></div>
+      </div>
+      <p class="timeline-text">
+        Android Studio, Git & GitHub, VS Code, Firebase, RESTful APIs, Twilio API, Machine Learning (TensorFlow, scikit-learn),ThirdWeb
+      </p>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Databases</h5>
+        <data value="75">75%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 75%;"></div>
+      </div>
+      <p class="timeline-text">
+        MySQL, MongoDB, SQLite
+    </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/shivamnangare63@gmail.com" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
