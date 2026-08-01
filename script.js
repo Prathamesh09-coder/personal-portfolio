@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
       this.classList.add("active");
 
       // Find and activate the corresponding page
-      const targetPage = this.innerHTML.toLowerCase();
+      const targetPage = this.innerText.trim().toLowerCase();
       pages.forEach(page => {
         if (page.dataset.page === targetPage) {
           page.classList.add("active");
